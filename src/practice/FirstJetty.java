@@ -19,7 +19,6 @@ public class FirstJetty extends AbstractHandler {
 		server.join();
 	}
 
-	@Override
 	public void handle(String targetUri, Request baseRequest, HttpServletRequest request, HttpServletResponse response)
 			throws IOException, ServletException {
 		response.setContentType("text/html;charset=utf-8");
