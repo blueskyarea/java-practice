@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>GET Ajax Response using jetty</title>
+    <script type="text/javascript">
+      var req;
+
+      function validate() {
+        if (typeof XMLHttpRequest != "undefined") {
+          req = new XMLHttpRequest();
+        } else if (window.ActiveXObject) {
+          req = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        req.open("GET", "http://localhost:8081/test?id=12345", true);
+        req.onreadystatechange = callback;
+        req.send(null);
+      }
+
+      function callback() {
+        if (req.readyState == 4 && req.status == 200) {
+          //var message = req.responseXML.getElementsByTagName("message")[0];
+          var message = req.response;
+          //document.getElementById("userid").innerHTML = message.childNodes[0].nodeValue;
+          document.getElementById("userid").innerHTML = message;
+        }
+      }
+    </script>
+  </head>
+  <body onload="validate()">
+    <div id="userid">dummy</div>
+  </body>
+</html>
