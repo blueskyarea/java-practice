@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Get HbaseData With Ajax</title>
+    <script type="text/javascript">
+      var req;
+
+      function validate() {
+        if (typeof XMLHttpRequest != "undefined") {
+          req = new XMLHttpRequest();
+        } else if (window.ActiveXObject) {
+          req = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        req.open("GET", "http://localhost:8082/a", true);
+        req.onreadystatechange = callback;
+        req.send(null);
+      }
+
+      function callback() {
+        if (req.readyState == 4 && req.status == 200) {
+          console.log("success");
+          var message = req.response;
+          document.getElementById("userid").innerHTML = message;
+        }
+      }
+    </script>
+  </head>
+  <body onload="validate()">
+    <div id="userid">dummy</div>
+  </body>
+</html>
