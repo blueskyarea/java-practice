@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Get HbaseData With Ajax</title>
+<link href="./resource/jquery.dataTables.css" rel="stylesheet"
+	type="text/css" />
+<script src="./resource/jquery-2.0.3.min.js"></script>
+<script src="./resource/jquery.dataTables.js"></script>
+<script type="text/javascript">
+    var req;
+
+    function validate() {
+	if (typeof XMLHttpRequest != "undefined") {
+	    req = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+	    req = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	req.open("GET", "http://localhost:8082/a", true);
+	req.onreadystatechange = callback;
+	req.send(null);
+    }
+
+    function callback() {
+	if (req.readyState == 4 && req.status == 200) {
+	    console.log("success");
+
+	    resultList = [];
+	    var json = JSON.parse(req.response);
+	    console.log(json.length);
+	    for (i = 0; i < json.length; i++) {
+		resultList.push([ json[i].key, json[i].q1, json[i].q2 ]);
+	    }
+
+	    var resultConfig = {
+		"aaData" : resultList,
+		"aoColumns" : [ {
+		    "sTitle" : "Key",
+		    "sClass" : "center"
+		}, {
+		    "sTitle" : "Q1",
+		    "sClass" : "center"
+		}, {
+		    "sTitle" : "Q2",
+		    "sClass" : "center"
+		} ]
+	    };
+	    $('#resultTable').dataTable(resultConfig);
+	}
+    }
+</script>
+</head>
+<body onload="validate()">
+	<div id="result">dummy</div>
+	<div id="section">
+		<table id='resultTable'></table>
+	</div>
+</body>
+</html>
