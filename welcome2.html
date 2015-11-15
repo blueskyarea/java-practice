@@ -2,37 +2,41 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Get HbaseData With Ajax</title>
+<title>Get HbaseData With Post</title>
 <link href="./resource/jquery.dataTables.css" rel="stylesheet"
 	type="text/css" />
 <script src="./resource/jquery-2.0.3.min.js"></script>
 <script src="./resource/jquery.dataTables.js"></script>
 <script type="text/javascript">
-    var req;
+$(document).ready(function(){
 
-    function validate() {
-	if (typeof XMLHttpRequest != "undefined") {
-	    req = new XMLHttpRequest();
-	} else if (window.ActiveXObject) {
-	    req = new ActiveXObject("Microsoft.XMLHTTP");
-	}
-	req.open("GET", "http://localhost:8082/a", true);
-	req.onreadystatechange = callback;
-	req.send(null);
-    }
+	$('#search-button').click(function () {
+	   	console.log("click");
+	   	validate();
+	});
 
-    function callback() {
-	if (req.readyState == 4 && req.status == 200) {
-	    console.log("success");
+});
 
+function validate() {
+	console.log("validate");
+	var value2 = $('#search-key').val();
+	console.log(value2);
+	$.ajax({
+	    type: 'POST',
+		url: "http://localhost:8082/",
+		data: {key2 : value2}
+	}).done(function(data){
+		console.log("success!");
+		console.log(data);
 	    resultList = [];
-	    var json = JSON.parse(req.response);
+	    var json = JSON.parse(data);
 	    console.log(json.length);
 	    for (i = 0; i < json.length; i++) {
 		resultList.push([ json[i].key, json[i].q1, json[i].q2 ]);
 	    }
 
 	    var resultConfig = {
+		"bDestroy": true,
 		"aaData" : resultList,
 		"aoColumns" : [ {
 		    "sTitle" : "Key",
@@ -45,13 +49,24 @@
 		    "sClass" : "center"
 		} ]
 	    };
-	    $('#resultTable').dataTable(resultConfig);
-	}
-    }
+	    
+	    if(typeof resultTable2 !== "undefined") {
+			//resultTable2.fnDestroy();
+	    }
+	    resultTable2 = $('#resultTable').dataTable(resultConfig);
+	}).fail(function(data){
+	    console.log("error!");
+	});
+
+}
 </script>
 </head>
-<body onload="validate()">
+<body>
 	<div id="result">dummy</div>
+	<form>
+		<input type="text" id="search-key" name="search-key">
+		<input type="button" id="search-button" value="search">
+	</form>
 	<div id="section">
 		<table id='resultTable'></table>
 	</div>
