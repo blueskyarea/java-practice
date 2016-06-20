@@ -41,6 +41,13 @@
 			<version>2.2.4</version>
 		</dependency>
 		<!-- /gson -->
+		<!-- StringUtils -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<!-- /StringUtils -->
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
