@@ -5,11 +5,11 @@ public class CloneableChallenge {
 	public static void main(String[] args) throws CloneNotSupportedException {
 		Human human17 = new Human("cells");
 		Human human18 = (Human) human17.clone();
-		System.out.println(human17.equals(human18));
-		System.out.println(human17.cell.equals(human18.cell));
+		System.out.println(human17.equals(human18));	// false
+		System.out.println(human17.cell.equals(human18.cell));	// true
 		
 		human18.modifyCell("cells2");
-		System.out.println(human17.cell.equals(human18.cell));
+		System.out.println(human17.cell.equals(human18.cell));	// true
 	}
 	
 	static class Human implements Cloneable {
