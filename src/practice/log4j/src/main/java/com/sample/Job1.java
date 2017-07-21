@@ -1,4 +1,4 @@
-package com.sample;
+package practice.log4j.src.main.java.com.sample;
 
 import org.apache.log4j.Logger;
 

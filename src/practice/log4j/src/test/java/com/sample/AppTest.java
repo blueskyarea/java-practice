@@ -1,4 +1,4 @@
-package com.sample;
+package practice.log4j.src.test.java.com.sample;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
