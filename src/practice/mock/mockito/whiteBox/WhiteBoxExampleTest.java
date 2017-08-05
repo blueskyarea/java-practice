@@ -1,4 +1,4 @@
-package practice.mock.mockito;
+package practice.mock.mockito.whiteBox;
 
 import static org.junit.Assert.*;
 

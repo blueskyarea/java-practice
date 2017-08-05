@@ -1,4 +1,4 @@
-package practice.mock.mockito;
+package practice.mock.mockito.whiteBox;
 
 public class WhiteBoxExample {
 	
