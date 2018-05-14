@@ -1,7 +1,9 @@
-package main.java.practice.mock.mockito;
+package test.java.practice.mock.mockito;
 
 import static org.assertj.core.api.BDDAssertions.then;
 import static org.mockito.BDDMockito.given;
+import main.java.practice.mock.mockito.AverageCalculator;
+import main.java.practice.mock.mockito.NumberGenerator;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
