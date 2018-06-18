@@ -49,6 +49,12 @@
 			<version>3.7</version>
 		</dependency>
 		<!-- /StringUtils -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
 		<!-- mock -->
 		<!-- https://mvnrepository.com/artifact/org.jmockit/jmockit -->
 		<dependency>
@@ -74,12 +80,6 @@
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.assertj</groupId>
