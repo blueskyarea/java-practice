@@ -2,6 +2,7 @@ package main.java.practice.java8.sort2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class SortMain {
 
@@ -23,13 +24,17 @@ public class SortMain {
 				add(chunLi);
 			}
 		};
-		members.stream().sorted((member1, member2) -> member2.height - member1.height).forEach(m -> {
-			System.out.println("name: " + m.name + " height: " + m.height);
-		});
+		//members.stream().sorted((member1, member2) -> member2.height - member1.height).forEach(m -> {
+		//	System.out.println("name: " + m.name + " height: " + m.height);
+		//});
 		
-		members.get(0).name = "honda";
+		List<Member> members2 = members.stream().sorted((member1, member2) -> member2.height - member1.height).collect(Collectors.toList());
 		
-		members.stream().sorted((member1, member2) -> member2.height - member1.height).forEach(m -> {
+		members2.forEach(m -> System.out.println("name: " + m.name + " height: " + m.height));
+		
+		members2.get(0).name = "honda";
+		System.out.println("-----");
+		members2.stream().sorted((member1, member2) -> member2.height - member1.height).forEach(m -> {
 			System.out.println("name: " + m.name + " height: " + m.height);
 		});
 	}
