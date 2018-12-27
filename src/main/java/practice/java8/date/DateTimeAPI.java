@@ -6,6 +6,7 @@ import java.time.OffsetDateTime;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class DateTimeAPI {
 	public static void main(String args[]) {
@@ -15,6 +16,8 @@ public class DateTimeAPI {
 		dta.specifyTimeZone();
 		System.out.println("------");
 		dta.convertTimeZone();
+		System.out.println("------");
+		dta.convertStringFormat();
 	}
 	
 	private void tryNow() {
@@ -54,5 +57,15 @@ public class DateTimeAPI {
 		OffsetDateTime odtjst = OffsetDateTime.now(ZoneId.of("Asia/Tokyo"));
 		OffsetDateTime odtutc = OffsetDateTime.ofInstant(odtjst.toInstant(), ZoneId.of("UTC"));
 		System.out.println("OffsetDateTime.now(): " + odtutc);
+	}
+	
+	private void convertStringFormat() {	
+		String ORG_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'";
+		String orgDate = "2018-12-26T14:24:01.247Z";
+		LocalDateTime ldt = LocalDateTime.parse(orgDate, DateTimeFormatter.ofPattern(ORG_FORMAT));
+		
+		String NEW_FORMAT = "yyyyMMddHHmm";
+		String result = ldt.format(DateTimeFormatter.ofPattern(NEW_FORMAT));
+		System.out.println(result);
 	}
 }
