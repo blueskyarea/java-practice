@@ -27,7 +27,7 @@ public class MinimumPow {
 			if (!(Math.pow(2.0, Double.valueOf(i)) > expect)) {
 				i++;
 			} else {
-				i -= 1;
+				i--;
 				break;
 			}
 		}
