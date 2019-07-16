@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
 
 public class QpsControlService {
 	// low NUM_THEAD and slow response will make unstable QPS.
-	private static final int NUM_THREAD = 4;
+	private static final int NUM_THREAD = 10;
 	private static final int NUM_LOOP = 100;
 	private static final long SLEEP_MILSEC = 1000L;
 	private static final long FIXED_RES_MILSEC = 5000L;

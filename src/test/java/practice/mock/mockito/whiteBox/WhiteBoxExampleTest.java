@@ -6,6 +6,9 @@ import main.java.practice.mock.mockito.whiteBox.WhiteBoxExample;
 import org.junit.Test;
 import org.mockito.internal.util.reflection.Whitebox;
 
+/**
+ * Mock private field
+ */
 public class WhiteBoxExampleTest {
 
 	@Test
