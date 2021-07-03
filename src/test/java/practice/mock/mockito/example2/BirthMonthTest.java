@@ -1,9 +1,9 @@
-package test.java.practice.mock.mockito.example2;
+package practice.mock.mockito.example2;
 
 import static org.mockito.Mockito.*;
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.CoreMatchers.*;
-import main.java.practice.mock.mockito.example2.BirthMonth;
+import practice.mock.mockito.example2.BirthMonth;
 
 import org.junit.Test;
 

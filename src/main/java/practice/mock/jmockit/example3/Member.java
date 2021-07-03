@@ -1,4 +1,4 @@
-package main.java.practice.mock.jmockit.example3;
+package practice.mock.jmockit.example3;
 
 public class Member {
 	private PointCard pointCard;

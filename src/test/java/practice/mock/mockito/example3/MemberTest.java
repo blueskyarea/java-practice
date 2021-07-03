@@ -1,10 +1,10 @@
-package test.java.practice.mock.mockito.example3;
+package practice.mock.mockito.example3;
 
 import static org.mockito.Mockito.*;
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.CoreMatchers.*;
-import main.java.practice.mock.mockito.example3.Member;
-import main.java.practice.mock.mockito.example3.PointCard;
+import practice.mock.mockito.example3.Member;
+import practice.mock.mockito.example3.PointCard;
 
 import org.junit.Before;
 import org.junit.Test;

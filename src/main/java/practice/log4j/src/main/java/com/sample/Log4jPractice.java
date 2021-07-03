@@ -1,4 +1,4 @@
-package main.java.practice.log4j.src.main.java.com.sample;
+package practice.log4j.src.main.java.com.sample;
 
 public class Log4jPractice {
 	// added(eclipse build path) main.java.practice.log4j.src.main.java.com.sample for class path.

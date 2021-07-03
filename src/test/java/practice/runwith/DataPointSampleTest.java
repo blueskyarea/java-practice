@@ -1,4 +1,4 @@
-package test.java.practice.runwith;
+package practice.runwith;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;

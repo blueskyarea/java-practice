@@ -1,8 +1,8 @@
-package test.java.practice.mock.jmockit;
+package practice.mock.jmockit;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
-import main.java.practice.mock.jmockit.PartialMock;
+import practice.mock.jmockit.PartialMock;
 import mockit.Expectations;
 import mockit.integration.junit4.JMockit;
 

@@ -1,4 +1,4 @@
-package main.java.practice.mock.mockito.example1;
+package practice.mock.mockito.example1;
 
 public class PointCard {
 	private int cardNumber;

@@ -1,4 +1,4 @@
-package test.java.practice.annotation;
+package practice.annotation;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;

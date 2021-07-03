@@ -1,12 +1,12 @@
-package test.java.practice.mock.mockito.example1;
+package practice.mock.mockito.example1;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import main.java.practice.mock.mockito.example1.Member;
-import main.java.practice.mock.mockito.example1.PointCard;
+import practice.mock.mockito.example1.Member;
+import practice.mock.mockito.example1.PointCard;
 
 import org.junit.Test;
 

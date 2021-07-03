@@ -1,7 +1,7 @@
-package test.java.practice.mock.mockito.whiteBox;
+package practice.mock.mockito.whiteBox;
 
 import static org.junit.Assert.*;
-import main.java.practice.mock.mockito.whiteBox.WhiteBoxExample;
+import practice.mock.mockito.whiteBox.WhiteBoxExample;
 
 import org.junit.Test;
 import org.mockito.internal.util.reflection.Whitebox;

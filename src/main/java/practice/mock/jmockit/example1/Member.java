@@ -1,4 +1,4 @@
-package main.java.practice.mock.jmockit.example1;
+package practice.mock.jmockit.example1;
 
 public class Member {
 	private int id;

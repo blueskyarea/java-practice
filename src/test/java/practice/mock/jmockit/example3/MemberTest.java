@@ -1,9 +1,9 @@
-package test.java.practice.mock.jmockit.example3;
+package practice.mock.jmockit.example3;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
-import main.java.practice.mock.jmockit.example3.Member;
-import main.java.practice.mock.jmockit.example3.PointCard;
+import practice.mock.jmockit.example3.Member;
+import practice.mock.jmockit.example3.PointCard;
 import mockit.NonStrictExpectations;
 import mockit.integration.junit4.JMockit;
 

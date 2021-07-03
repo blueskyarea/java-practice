@@ -1,11 +1,11 @@
-package test.java.practice.json;
+package practice.json;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 
 import java.io.IOException;
 
-import main.java.practice.json.JsonSetterExample;
+import practice.json.JsonSetterExample;
 
 import org.junit.Test;
 

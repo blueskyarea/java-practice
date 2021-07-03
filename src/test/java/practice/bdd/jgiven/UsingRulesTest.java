@@ -1,4 +1,4 @@
-package test.java.practice.bdd.jgiven;
+package practice.bdd.jgiven;
 
 import org.junit.ClassRule;
 import org.junit.Rule;

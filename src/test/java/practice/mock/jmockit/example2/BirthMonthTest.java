@@ -1,9 +1,9 @@
-package test.java.practice.mock.jmockit.example2;
+package practice.mock.jmockit.example2;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
-import main.java.practice.mock.jmockit.example2.BirthMonth;
+import practice.mock.jmockit.example2.BirthMonth;
 import mockit.Mocked;
 import mockit.NonStrictExpectations;
 import mockit.integration.junit4.JMockit;

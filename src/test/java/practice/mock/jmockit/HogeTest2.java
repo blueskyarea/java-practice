@@ -1,10 +1,10 @@
-package test.java.practice.mock.jmockit;
+package practice.mock.jmockit;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.junit.Assert.assertThat;
-import main.java.practice.mock.jmockit.Foo;
-import main.java.practice.mock.jmockit.Hoge;
+import practice.mock.jmockit.Foo;
+import practice.mock.jmockit.Hoge;
 import mockit.Expectations;
 import mockit.Injectable;
 import mockit.Tested;

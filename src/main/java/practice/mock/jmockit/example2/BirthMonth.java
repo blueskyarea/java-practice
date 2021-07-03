@@ -1,4 +1,4 @@
-package main.java.practice.mock.jmockit.example2;
+package practice.mock.jmockit.example2;
 
 public class BirthMonth {
 	private int month;

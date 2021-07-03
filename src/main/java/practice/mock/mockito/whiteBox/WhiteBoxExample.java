@@ -1,4 +1,4 @@
-package main.java.practice.mock.mockito.whiteBox;
+package practice.mock.mockito.whiteBox;
 
 /**
  * Mock private field(refer Test class)
