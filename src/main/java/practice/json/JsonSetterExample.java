@@ -1,4 +1,4 @@
-package main.java.practice.json;
+package practice.json;
 
 import com.fasterxml.jackson.annotation.JsonSetter;
 

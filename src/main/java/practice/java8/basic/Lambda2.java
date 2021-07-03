@@ -1,4 +1,4 @@
-package main.java.practice.java8.basic;
+package practice.java8.basic;
 
 public class Lambda2 {
 	public static void main(String[] args) {

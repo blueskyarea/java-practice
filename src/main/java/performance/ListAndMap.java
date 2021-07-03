@@ -1,4 +1,4 @@
-package main.java.performance;
+package performance;
 
 import java.util.ArrayList;
 import java.util.HashMap;

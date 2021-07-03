@@ -1,4 +1,4 @@
-package main.java.practice.multithread;
+package practice.multithread;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

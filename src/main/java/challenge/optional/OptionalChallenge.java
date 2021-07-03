@@ -1,4 +1,4 @@
-package main.java.challenge.optional;
+package challenge.optional;
 
 import java.util.Arrays;
 import java.util.List;

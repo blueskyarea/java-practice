@@ -1,4 +1,4 @@
-package main.java.practice.interfaces;
+package practice.interfaces;
 
 public class Client {
 	

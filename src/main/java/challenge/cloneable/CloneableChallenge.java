@@ -1,4 +1,4 @@
-package main.java.challenge.cloneable;
+package challenge.cloneable;
 
 public class CloneableChallenge {
 

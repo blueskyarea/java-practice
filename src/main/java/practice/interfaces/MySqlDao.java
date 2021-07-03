@@ -1,4 +1,4 @@
-package main.java.practice.interfaces;
+package practice.interfaces;
 
 import java.util.HashMap;
 import java.util.Map;

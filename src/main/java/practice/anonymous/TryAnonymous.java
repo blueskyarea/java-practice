@@ -1,4 +1,4 @@
-package main.java.practice.anonymous;
+package practice.anonymous;
 
 public class TryAnonymous {
 

@@ -1,4 +1,4 @@
-package main.java.practice.datecalc;
+package practice.datecalc;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

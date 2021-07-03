@@ -1,4 +1,4 @@
-package main.java.challenge.polymorphism;
+package challenge.polymorphism;
 
 public class PolymorphismChallenge {
 	

@@ -1,4 +1,4 @@
-package main.java.practice.mock.jmockit;
+package practice.mock.jmockit;
 
 public class Hoge {
 	

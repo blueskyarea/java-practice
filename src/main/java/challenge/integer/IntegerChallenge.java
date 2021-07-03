@@ -1,4 +1,4 @@
-package main.java.challenge.integer;
+package challenge.integer;
 
 public class IntegerChallenge {
 	public static void main(String[] args) {

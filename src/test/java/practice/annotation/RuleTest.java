@@ -1,4 +1,4 @@
-package test.java.practice.annotation;
+package practice.annotation;
 
 import org.junit.Rule;
 import org.junit.Test;

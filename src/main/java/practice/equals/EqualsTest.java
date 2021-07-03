@@ -1,4 +1,4 @@
-package main.java.practice.equals;
+package practice.equals;
 
 public class EqualsTest {
 

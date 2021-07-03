@@ -1,4 +1,4 @@
-package main.java.practice.devil;
+package practice.devil;
 
 public class RoundingError {
 

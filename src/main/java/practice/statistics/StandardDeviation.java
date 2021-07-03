@@ -1,4 +1,4 @@
-package main.java.practice.statistics;
+package practice.statistics;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

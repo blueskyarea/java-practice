@@ -1,4 +1,4 @@
-package main.java.design.singleton;
+package design.singleton;
 
 public class Config {
 	

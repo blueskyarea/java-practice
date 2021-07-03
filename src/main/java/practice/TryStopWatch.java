@@ -1,4 +1,4 @@
-package main.java.practice;
+package practice;
 
 import org.apache.commons.lang3.time.StopWatch;
 

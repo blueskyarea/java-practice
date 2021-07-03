@@ -1,4 +1,4 @@
-package main.java.challenge.lamda;
+package challenge.lamda;
 
 import java.util.ArrayList;
 import java.util.List;

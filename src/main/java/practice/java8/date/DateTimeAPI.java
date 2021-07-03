@@ -1,4 +1,4 @@
-package main.java.practice.java8.date;
+package practice.java8.date;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

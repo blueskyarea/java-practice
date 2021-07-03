@@ -1,4 +1,4 @@
-package main.java.challenge.functional;
+package challenge.functional;
 
 import java.util.ArrayList;
 import java.util.List;

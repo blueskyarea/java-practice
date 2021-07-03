@@ -1,4 +1,4 @@
-package main.java.practice.java8.sort2;
+package practice.java8.sort2;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.tips.debug;
+package tips.debug;
 
 public class ExceptionBreakPoint {
 

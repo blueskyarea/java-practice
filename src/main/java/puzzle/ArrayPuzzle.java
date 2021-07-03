@@ -1,4 +1,4 @@
-package main.java.puzzle;
+package puzzle;
 
 public class ArrayPuzzle {
 

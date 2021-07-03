@@ -1,4 +1,4 @@
-package main.java.practice;
+package practice;
 
 public class InitTogether {
 

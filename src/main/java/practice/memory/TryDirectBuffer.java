@@ -1,4 +1,4 @@
-package main.java.practice.memory;
+package practice.memory;
 
 import java.nio.ByteBuffer;
 

@@ -1,4 +1,4 @@
-package main.java.challenge.lamda;
+package challenge.lamda;
 
 public class LamdaChallenge {
 	public static void main(String[] args) throws InterruptedException {

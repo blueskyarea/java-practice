@@ -1,4 +1,4 @@
-package main.java.design.builder;
+package design.builder;
 
 // This pattern is from EffectiveJava
 public class Car {

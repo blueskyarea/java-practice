@@ -1,4 +1,4 @@
-package main.java.codility;
+package codility;
 
 import java.util.HashMap;
 import java.util.Map;

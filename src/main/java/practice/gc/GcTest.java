@@ -1,4 +1,4 @@
-package main.java.practice.gc;
+package practice.gc;
 
 import java.util.ArrayList;
 import java.util.HashMap;

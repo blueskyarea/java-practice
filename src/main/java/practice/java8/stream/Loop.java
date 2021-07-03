@@ -1,4 +1,4 @@
-package main.java.practice.java8.stream;
+package practice.java8.stream;
 
 import java.util.stream.IntStream;
 

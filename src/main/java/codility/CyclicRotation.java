@@ -1,4 +1,4 @@
-package main.java.codility;
+package codility;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

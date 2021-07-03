@@ -1,4 +1,4 @@
-package main.java.practice.primitive;
+package practice.primitive;
 
 public class PassByValue {
 	

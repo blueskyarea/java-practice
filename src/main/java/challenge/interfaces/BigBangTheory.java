@@ -1,4 +1,4 @@
-package main.java.challenge.interfaces;
+package challenge.interfaces;
 
 public class BigBangTheory {
 

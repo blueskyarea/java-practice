@@ -1,4 +1,4 @@
-package main.java.practice.lambda;
+package practice.lambda;
 
 import java.time.LocalDateTime;
 import java.util.function.Supplier;

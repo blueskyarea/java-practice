@@ -1,4 +1,4 @@
-package main.java.practice.stringUtils;
+package practice.stringUtils;
 
 import java.util.ArrayList;
 import java.util.List;

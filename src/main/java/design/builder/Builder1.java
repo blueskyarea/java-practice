@@ -1,4 +1,4 @@
-package main.java.design.builder;
+package design.builder;
 
 public class Builder1 {
 	public static void main(String[] args) {

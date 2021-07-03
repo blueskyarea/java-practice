@@ -1,4 +1,4 @@
-package main.java.practice.java8.sort;
+package practice.java8.sort;
 
 
 public class Item {

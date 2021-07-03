@@ -1,4 +1,4 @@
-package main.java.practice.multithread;
+package practice.multithread;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

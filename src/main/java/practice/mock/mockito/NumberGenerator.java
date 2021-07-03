@@ -1,4 +1,4 @@
-package main.java.practice.mock.mockito;
+package practice.mock.mockito;
 
 public class NumberGenerator {
 	public NumberGenerator(){

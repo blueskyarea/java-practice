@@ -1,4 +1,4 @@
-package main.java.practice.java8.basic;
+package practice.java8.basic;
 
 import java.util.ArrayList;
 import java.util.Arrays;

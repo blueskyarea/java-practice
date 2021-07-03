@@ -1,4 +1,4 @@
-package main.java.practice.java8.sort2;
+package practice.java8.sort2;
 
 public class Member {
 	public String name;
