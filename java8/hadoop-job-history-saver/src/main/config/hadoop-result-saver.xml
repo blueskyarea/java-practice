@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>hadoop-result-saver</comment>
+<entry key="app.web.enable">true</entry>
+<entry key="app.port">8080</entry>
+<entry key="hadoop.rm.hostname">172.20.0.2</entry>
+<entry key="hadoop.rm.port">8088</entry>
+<entry key="hadoop.status">accepted,running,finished,failed,killed</entry>
+<entry key="hadoop.status.history">finished,failed,killed</entry>
+<entry key="hadoop.user">root</entry>
+<entry key="proxy.use">false</entry>
+<entry key="proxy.host"></entry>
+<entry key="proxy.port"></entry>
+<entry key="elastic.use">false</entry>
+<entry key="elastic.host"></entry>
+<entry key="elastic.port"></entry>
+<entry key="elastic.index"></entry>
+<entry key="num.retry.http.req">3</entry>
+<entry key="timeout.connect.mil">5000</entry>
+<entry key="timeout.read.mil">10000</entry>
+<entry key="welcome.file.name">hist.html</entry>
+<entry key="history.file.path">/tmp/hadoop-history.txt</entry>
+<entry key="interval.get.history.millisec">10000</entry>
+<entry key="days.to.keep.history">7</entry>
+</properties>
