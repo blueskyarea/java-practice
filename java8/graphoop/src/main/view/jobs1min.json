@@ -1,0 +1,17 @@
+{"jobs":[
+  {
+    "date_time":"00:00",
+    "jobA":120,
+    "jobB":90
+  },
+  {
+    "date_time":"00:01",
+    "jobA":0,
+    "jobB":0
+  },
+  {
+    "date_time":"00:02",
+    "jobA":0,
+    "jobB":30
+  }
+]}
