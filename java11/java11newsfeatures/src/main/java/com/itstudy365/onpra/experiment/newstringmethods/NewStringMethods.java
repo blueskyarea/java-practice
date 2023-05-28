@@ -4,13 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class NewStringMethods 
-{
-    public static void main( String[] args )
-    {	
-    	// Nothing to do.
-    }
-    
+public class NewStringMethods {
     protected Stream<String> linesMethod(String multilineString) {
     	return multilineString.lines();
     }
