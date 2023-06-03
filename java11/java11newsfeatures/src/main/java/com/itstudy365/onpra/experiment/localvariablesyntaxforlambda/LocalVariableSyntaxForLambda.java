@@ -13,7 +13,7 @@ public class LocalVariableSyntaxForLambda {
 	}
 	
 	// Note: Seems this @NonNull is not working
-	public String varKeywordWithNonsNullAnnotation(List<String> list) {
+	public String varKeywordWithNonNullAnnotation(List<String> list) {
 		return list.stream()
 			.map((@NonNull var x) -> x.toUpperCase())
 			.collect(Collectors.joining(", "));

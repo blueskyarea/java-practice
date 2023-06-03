@@ -21,7 +21,7 @@ class LocalVariableSyntaxForLambdaTest {
 	void varKeywordWithNonNullAnnotationTest() {
 		try {
 			List<String> stringList = Arrays.asList("Java", "\n \n", "Kotlin", "", null);
-			new LocalVariableSyntaxForLambda().varKeywordWithNonsNullAnnotation(stringList);
+			new LocalVariableSyntaxForLambda().varKeywordWithNonNullAnnotation(stringList);
 			fail();
 		} catch (NullPointerException npe) {
 			assertThat(npe.getMessage()).isEqualTo("Cannot invoke \"String.toUpperCase()\" because \"x\" is null");
